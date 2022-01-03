@@ -1,219 +1,260 @@
 <!DOCTYPE html>
 <html lang="en" id="home">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>My Portfolio</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Portfolio</title>
 
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
-<body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#home">Abid Eka Wibisana</a>
+        </div>
 
-<!-- Navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<div class="container-fluid">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand page-scroll" href="#home">Abid Eka Wibisana</a>
-</div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portofolio" class="page-scroll">Portfolio</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav navbar-right">
-<li><a href="#about" class="page-scroll">About</a></li>
-<li><a href="#portofolio" class="page-scroll">Portfolio</a></li>
-<li><a href="#contact" class="page-scroll">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/me.png" class="img-circle" />
+      <h1>Abid Eka Wibisana</h1>
+      <p>Fullstack Developer</p>
+    </div>
 
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr />
+          </div>
+        </div>
 
-<!-- Jumbotron -->
-<div class="jumbotron text-center">
-<img src="img/me.png" class="img-circle">
-<h1>Abid Eka Wibisana</h1>
-<p>Frontend Developer | Backend Developer | Fullstack Developer</p>
-</div>
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <p class="pKiri">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              quae sapiente expedita ullam aperiam, est architecto omnis eaque
+              minus, modi facilis cupiditate ipsum molestiae excepturi. Dolorum
+              officia soluta ducimus incidunt dignissimos.
+            </p>
+          </div>
+          <div class="col-sm-5">
+            <p class="pKanan">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              quae sapiente expedita ullam aperiam, est architecto omnis eaque
+              minus, modi facilis cupiditate ipsum molestiae excepturi. Dolorum
+              officia soluta ducimus incidunt dignissimos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- About -->
-<section class="about" id="about">
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
-<h2 class="text-center">About</h2>
-<hr>
-</div>
-</div>
+    <!-- Portofolio -->
+    <section class="portofolio" id="portofolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Portfolio</h2>
+            <hr />
+          </div>
+        </div>
 
-<div class="row">
-<div class="col-sm-5 col-sm-offset-1">
-<p class="pKiri">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quae sapiente expedita ullam aperiam, est architecto omnis eaque minus, modi facilis cupiditate ipsum molestiae excepturi. Dolorum officia soluta ducimus incidunt dignissimos.</p>
-</div>
-<div class="col-sm-5">
-<p class="pKanan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quae sapiente expedita ullam aperiam, est architecto omnis eaque minus, modi facilis cupiditate ipsum molestiae excepturi. Dolorum officia soluta ducimus incidunt dignissimos.</p>
-</div>
-</div>
-</div>
-</section>
+        <div class="row text-center">
+          <div class="col-sm-6">
+            <a href="#gambar-1" class="thumbnail">
+              <img src="img/2.png" />
+            </a>
 
-<!-- Portofolio -->
-<section class="portofolio" id="portofolio">
-<div class="container">
-<div class="row">
-<div class="col-sm-12 text-center">
-<h2>Portfolio</h2>
-<hr>
-</div>
-</div>
+            <div class="overlay" id="gambar-1">
+              <a href="#portofolio" class="close">X</a>
+              <img src="img/ori/2.png" />
+            </div>
+          </div>
 
-<div class="row text-center">
-<div class="col-sm-4">
-  <a href="#gambar-1" class="thumbnail">
-    <img src="img/1.png">
-  </a>
+          <div class="col-sm-6">
+            <a href="#gambar-2" class="thumbnail">
+              <img src="img/1.png" />
+            </a>
 
-  <div class="overlay" id="gambar-1">
-    <a href="#portofolio" class="close">X</a>
-    <img src="img/ori/1.png">
-  </div>
-</div>
+            <div class="overlay" id="gambar-2">
+              <a href="#portofolio" class="close">X</a>
+              <img src="img/ori/1.png" />
+            </div>
+          </div>
 
-<div class="col-sm-4">
-  <a href="#gambar-2" class="thumbnail">
-    <img src="img/2.png">
-  </a>
+          <!-- <div class="col-sm-4">
+            <a href="#gambar-3" class="thumbnail">
+              <img src="img/3.png" />
+            </a>
 
-  <div class="overlay" id="gambar-2">
-    <a href="#portofolio" class="close">X</a>
-    <img src="img/ori/2.png">
-  </div>
-</div>
+            <div class="overlay" id="gambar-3">
+              <a href="#portofolio" class="close">X</a>
+              <img src="img/ori/3.png" />
+            </div>
+          </div>
 
-<div class="col-sm-4">
-  <a href="#gambar-3" class="thumbnail">
-    <img src="img/3.png">
-  </a>
+          <div class="col-sm-4">
+            <a href="#gambar-4" class="thumbnail">
+              <img src="img/4.png" />
+            </a>
 
-  <div class="overlay" id="gambar-3">
-    <a href="#portofolio" class="close">X</a>
-    <img src="img/ori/3.png">
-  </div>
-</div>
+            <div class="overlay" id="gambar-4">
+              <a href="#portofolio" class="close">X</a>
+              <img src="img/ori/4.png" />
+            </div>
+          </div>
 
-<div class="col-sm-4">
-  <a href="#gambar-4" class="thumbnail">
-    <img src="img/4.png">
-  </a>
+          <div class="col-sm-4">
+            <a href="#gambar-5" class="thumbnail">
+              <img src="img/5.png" />
+            </a>
 
-  <div class="overlay" id="gambar-4">
-    <a href="#portofolio" class="close">X</a>
-    <img src="img/ori/4.png">
-  </div>
-</div>
+            <div class="overlay" id="gambar-5">
+              <a href="#portofolio" class="close">X</a>
+              <img src="img/ori/5.png" />
+            </div>
+          </div>
 
-<div class="col-sm-4">
-  <a href="#gambar-5" class="thumbnail">
-    <img src="img/5.png">
-  </a>
+          <div class="col-sm-4">
+            <a href="#gambar-6" class="thumbnail">
+              <img src="img/6.png" />
+            </a>
 
-  <div class="overlay" id="gambar-5">
-    <a href="#portofolio" class="close">X</a>
-    <img src="img/ori/5.png">
-  </div>
-</div>
+            <div class="overlay" id="gambar-6">
+              <a href="#portofolio" class="close">X</a>
+              <img src="img/ori/6.png" />
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="col-sm-4">
-  <a href="#gambar-6" class="thumbnail">
-    <img src="img/6.png">
-  </a>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Contact</h2>
+            <hr />
+          </div>
+        </div>
 
-  <div class="overlay" id="gambar-6">
-    <a href="#portofolio" class="close">X</a>
-    <img src="img/ori/6.png">
-  </div>
-</div>
-</div>
-</div>
-</section>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input
+                  type="text"
+                  id="nama"
+                  class="form-control"
+                  placeholder="masukkan nama"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="masukkan email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="tel">No Telepon</label>
+                <input
+                  type="tel"
+                  id="tel"
+                  class="form-control"
+                  placeholder="masukkan no telepon"
+                />
+              </div>
+              <select class="form-control">
+                <option>-- Pilih Kategori --</option>
+                <option>Web Design</option>
+                <option>Web Development</option>
+              </select>
+              <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea
+                  id="pesan"
+                  class="form-control"
+                  rows="10"
+                  placeholder="masukkan pesan"
+                >
+                </textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Contact -->
-<section class="contact" id="contact">
-<div class="container">
-<div class="row">
-<div class="col-sm-12 text-center">
-<h2>Contact</h2>
-<hr>
-</div>
-</div>
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              &copy; copyright 2021
+            </p>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-sm-12">
+            <a
+              href="https://www.youtube.com/channel/UC2GG18auzb3fnhz91VrMO6g?view_as=subscriber"
+              class="btn btn-danger"
+              ><i class="glyphicon glyphicon-play"></i>Subscribe to YouTube</a
+            >
+          </div>
+        </div> -->
+      </div>
+    </footer>
 
-<div class="row">
-<div class="col-sm-8 col-sm-offset-2">
-<form>
-<div class="form-group">
-<label for="nama">Nama</label>
-<input type="text" id="nama" class="form-control" placeholder="masukkan nama">
-</div>
-<div class="form-group">
-<label for="email">Email</label>
-<input type="email" id="email" class="form-control" placeholder="masukkan email">
-</div>
-<div class="form-group">
-<label for="tel">No Telepon</label>
-<input type="tel" id="tel" class="form-control" placeholder="masukkan no telepon">
-</div>
-<select class="form-control">
-<option>-- Pilih Kategori --</option>
-<option>Web Design</option>
-<option>Web Development</option>
-</select>
-<div class="form-group">
-<label for="pesan">Pesan</label>
-<textarea id="pesan" class="form-control" rows="10" placeholder="masukkan pesan"> </textarea>
-</div>
-<button type="submit" class="btn btn-primary">Kirim Pesan</button>
-</form>
-</div>
-</div>
-</div>
-</section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
-<!-- Footer -->
-<footer>
-<div class="container text-center">
-<div class="row">
-<div class="col-sm-12">
-<p>&copy; copyright 2020 | built with  <i class="glyphicon glyphicon-sunglasses"></i> by. <a href="https://www.instagram.com/abidwibisanaa/">Abid Wibisana</a></p>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-12">
-<a href="https://www.youtube.com/channel/UC2GG18auzb3fnhz91VrMO6g?view_as=subscriber" class="btn btn-danger"><i class="glyphicon glyphicon-play"></i>Subscribe to YouTube</a>
-</div>
-</div>
-</div>
-</footer>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
